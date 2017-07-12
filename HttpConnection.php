@@ -93,7 +93,7 @@ abstract class HttpConnection {
    * indefinitely. (Default: 5)
    * @var type
    */
-  public $connectTimeout = 5;
+  public $connectTimeout = 30;
   /**
    * The useragent to use. (Default: cURL default)
    * @var type string
